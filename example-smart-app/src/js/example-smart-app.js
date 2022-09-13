@@ -74,7 +74,7 @@
 		  p.allergies = "";
 		  allergies.forEach(function(allergy){
 			  if(allergy.code){
-			   p.allergies += "<div>"+allergy.code.text+"</div>;
+			   p.allergies += "<div>"+allergy.code.text+"</div>";
 			  }
 		  })
 		  
