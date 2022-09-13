@@ -95,7 +95,7 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
-	  tmpr: {value: ''}
+	  tmpr: {value: ''},
 	  allergies: {value: ''}
     };
   }
