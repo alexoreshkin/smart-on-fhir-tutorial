@@ -71,6 +71,12 @@
           p.ldl = getQuantityValueAndUnit(ldl[0]);
 		  p.tmpr = getQuantityValueAndUnit(tmpr[0]);
 		  
+		  allergies.forEach(function(allergy){
+			  if(allergy.code){
+			   console.log(allergy.code.text);
+			  }
+		  })
+		  
 
           ret.resolve(p);
         });
