@@ -70,6 +70,7 @@
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
 		  p.tmpr = getQuantityValueAndUnit(tmpr[0]);
+		  
 
           ret.resolve(p);
         });
