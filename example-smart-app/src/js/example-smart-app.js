@@ -71,9 +71,10 @@
           p.ldl = getQuantityValueAndUnit(ldl[0]);
 		  p.tmpr = getQuantityValueAndUnit(tmpr[0]);
 		  
+		  p.allergies = "";
 		  allergies.forEach(function(allergy){
 			  if(allergy.code){
-			   console.log(allergy.code.text);
+			   p.allergies += "<div>"+allergy.code.text+"</div>;
 			  }
 		  })
 		  
