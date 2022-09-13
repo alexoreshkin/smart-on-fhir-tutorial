@@ -61,6 +61,7 @@
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
+		  p.tmpr = getQuantityValueAndUnit(tmpr[0]);
 
           ret.resolve(p);
         });
@@ -85,6 +86,7 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
+	  tmpr: {value: ''}
     };
   }
 
@@ -128,6 +130,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+	$('#tmpr').html(p.tmpr);
   };
 
 })(window);
